@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Selenium Hands On Exercise - Foundation Level">
+   <test name = "MoneyControl.com Use Cases">
+      <classes>			
+         <class name = "com.handsOn.exercise.useCases.moneyControl.UseCase1_LoginProcessToMoneycontrol"/>
+         <class name = "com.handsOn.exercise.useCases.moneyControl.UseCase2_GetShareValForMultiComp"/>
+         <class name = "com.handsOn.exercise.useCases.moneyControl.UseCase3_CaptureGoldCommodityPrice"/>
+         <class name = "com.handsOn.exercise.useCases.moneyControl.UseCase4_FindCurrencyHighValue"/>
+         <class name = "com.handsOn.exercise.useCases.moneyControl.UseCase5_ProvidentFundCalculator"/>
+         <class name = "com.handsOn.exercise.useCases.moneyControl.UseCase6_GratuityCalculator"/>
+      </classes>
+   </test>
+   <test name = "Time@IBM Use Cases">
+      <classes>			
+         <class name = "com.handsOn.exercise.useCases.timeIBM.UseCase7_EnterBMSData"/>
+         <class name = "com.handsOn.exercise.useCases.timeIBM.UseCase8_EditDataPriorLockedPeriod"/>
+         <class name = "com.handsOn.exercise.useCases.timeIBM.UseCase9_ValidateUIOptions"/>
+         <class name = "com.handsOn.exercise.useCases.timeIBM.UseCase10_ReleaseNoteDetails"/>
+         <class name = "com.handsOn.exercise.useCases.timeIBM.UseCase11_AlertsAndAnnouncements"/>
+         <class name = "com.handsOn.exercise.useCases.timeIBM.UseCase12_FeaturesVotingAndStatus"/>
+      </classes>
+   </test>
+   <test name = "NSEIndia Use Cases">
+      <classes>			
+         <class name = "com.handsOn.exercise.useCases.nseIndia.UseCase13_CorporateAnnouncement"/>
+         <!-- <class name = "com.handsOn.exercise.useCases.nseIndia.UseCase14_FindCompanyDirectory"/> -->
+         <class name = "com.handsOn.exercise.useCases.nseIndia.UseCase15_HolidaysForEquities"/>  
+         <class name = "com.handsOn.exercise.useCases.nseIndia.UseCase16_KnowingClassroomCourses"/>
+      </classes>
+   </test>
+   
+</suite>	
+
+
+
+
+
+
+
+
+
+
+
